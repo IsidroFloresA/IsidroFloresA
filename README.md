@@ -1,9 +1,9 @@
 <a href="https://isidrofloresa.github.io/"><img src=".github/assets/banner.svg" width="100%" alt="Isidro Flores, Software Engineer. Full-stack, backend systems and databases. B.S. Software Engineering, San José State University, December 2026." /></a>
 
 <p>
-  <a href="https://isidrofloresa.github.io/"><img src="https://img.shields.io/badge/Portfolio-isidrofloresa.github.io-F5B700?style=for-the-badge&logo=githubpages&logoColor=black&labelColor=1f2328" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/isidrofloresa"><img src="https://img.shields.io/badge/LinkedIn-isidrofloresa-0A66C2?style=for-the-badge&labelColor=1f2328" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/Languages-English_%7C_Spanish-2ECC71?style=for-the-badge&labelColor=1f2328" alt="English and Spanish" />
+  <a href="https://isidrofloresa.github.io/"><img src="https://img.shields.io/badge/Portfolio-isidrofloresa.github.io-24292F?style=for-the-badge&logo=githubpages&logoColor=F5B700&labelColor=24292F" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/isidrofloresa"><img src="https://img.shields.io/badge/LinkedIn-isidrofloresa-24292F?style=for-the-badge&labelColor=24292F" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Languages-English_%7C_Spanish-24292F?style=for-the-badge&labelColor=24292F" alt="English and Spanish" />
 </p>
 
 ## About
@@ -22,27 +22,27 @@ El Colorín is a private client project; details are available upon request. Scr
 ## Technologies
 
 **Backend**&ensp;
-![Java](https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![Java](https://img.shields.io/badge/Java-24292F?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-24292F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-24292F?style=flat-square&logo=springsecurity&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-24292F?style=flat-square&logo=apachemaven&logoColor=white)
 
 **Databases**&ensp;
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-24292F?style=flat-square&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-24292F?style=flat-square&logo=supabase&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-24292F?style=flat-square&logo=flyway&logoColor=white)
 
 **Frontend**&ensp;
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-8B5CF6?style=flat-square&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-24292F?style=flat-square&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-24292F?style=flat-square&logo=javascript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-24292F?style=flat-square&logo=vite&logoColor=white)
 
 **Deployment and tools**&ensp;
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Cloudflare Tunnel](https://img.shields.io/badge/Cloudflare_Tunnel-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00AD9F?style=flat-square&logo=netlify&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-24292F?style=flat-square&logo=nginx&logoColor=white)
+![Cloudflare Tunnel](https://img.shields.io/badge/Cloudflare_Tunnel-24292F?style=flat-square&logo=cloudflare&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-24292F?style=flat-square&logo=netlify&logoColor=white)
+![Git](https://img.shields.io/badge/Git-24292F?style=flat-square&logo=git&logoColor=white)
 
 <details>
 <summary><b>Versión en español</b></summary>

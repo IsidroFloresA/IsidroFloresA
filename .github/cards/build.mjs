@@ -24,32 +24,16 @@ const C = {
 }
 
 const STATUS = {
-  pilot: { color: '#f5b700', en: 'PILOT', es: 'EN PILOTO' },
-  live: { color: '#2ecc71', en: 'LIVE', es: 'EN LÍNEA' },
-  dev: { color: '#4c9aff', en: 'IN DEVELOPMENT', es: 'EN DESARROLLO' },
-}
-
-// Brand-ish colors for stack chips.
-const TECH = {
-  'Java': '#e76f00',
-  'Spring Boot': '#6db33f',
-  'React': '#149eca',
-  'PostgreSQL': '#4169e1',
-  'MySQL': '#00758f',
-  'Twilio': '#f22f46',
-  'Supabase': '#3ecf8e',
-  'Row-Level Security': '#7c5cff',
-  'Vite': '#8b5cf6',
-  'Netlify Functions': '#00ad9f',
-  'Google Calendar API': '#4285f4',
-  'Flyway': '#cc0200',
+  pilot: { color: '#d9a400', en: 'PILOT', es: 'EN PILOTO' },
+  live: { color: '#3fb950', en: 'LIVE', es: 'EN LÍNEA' },
+  dev: { color: '#8b949e', en: 'IN DEVELOPMENT', es: 'EN DESARROLLO' },
 }
 
 const projects = [
   {
     file: 'card-el-colorin',
     id: 'IF-2026-001',
-    accent: '#f5b700',
+    accent: C.yellow,
     status: 'pilot',
     tag: { en: 'MAIN PROJECT · CLIENT', es: 'PROYECTO PRINCIPAL · CLIENTE' },
     title: { en: 'El Colorín Admin System', es: 'Sistema administrativo El Colorín' },
@@ -63,7 +47,7 @@ const projects = [
   {
     file: 'card-procpatrol',
     id: 'IF-2026-002',
-    accent: '#2ecc71',
+    accent: C.yellow,
     status: 'live',
     tag: { en: 'TEAM PROJECT', es: 'PROYECTO EN EQUIPO' },
     title: { en: 'ProcPatrol', es: 'ProcPatrol' },
@@ -80,7 +64,7 @@ const projects = [
   {
     file: 'card-likehome',
     id: 'IF-2026-003',
-    accent: '#7c5cff',
+    accent: C.yellow,
     status: 'dev',
     tag: { en: 'TEAM PROJECT', es: 'PROYECTO EN EQUIPO' },
     title: { en: 'LikeHome', es: 'LikeHome' },
@@ -97,7 +81,7 @@ const projects = [
   {
     file: 'card-soles',
     id: 'IF-2026-004',
-    accent: '#ff7a45',
+    accent: C.yellow,
     status: 'live',
     tag: { en: 'VOLUNTEER', es: 'VOLUNTARIADO' },
     title: { en: 'SOLES Website', es: 'Sitio web de SOLES' },
@@ -141,8 +125,8 @@ function card(p, lang) {
   // Header strip: type tag on the left, build ID + status light on the right.
   const tag = p.tag[lang]
   const tagW = labelWidth(tag, 12) + 28
-  parts.push(`<rect x="${pad}" y="30" width="${tagW}" height="26" rx="13" fill="${p.accent}" fill-opacity="0.16" stroke="${p.accent}" stroke-opacity="0.55"/>`)
-  parts.push(`<text x="${pad + tagW / 2}" y="47.5" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="700" letter-spacing="1" fill="${p.accent}">${esc(tag)}</text>`)
+  parts.push(`<rect x="${pad}" y="30" width="${tagW}" height="26" rx="13" fill="none" stroke="${C.line}"/>`)
+  parts.push(`<text x="${pad + tagW / 2}" y="47.5" text-anchor="middle" font-family="${FONT}" font-size="12" font-weight="700" letter-spacing="1" fill="${C.muted}">${esc(tag)}</text>`)
 
   const statusText = st[lang]
   parts.push(`<text x="${W - pad}" y="48" text-anchor="end" font-family="${MONO}" font-size="13" font-weight="600" letter-spacing="1" fill="${st.color}">${statusText}</text>`)
@@ -176,10 +160,9 @@ function card(p, lang) {
   y += 26
   let x = pad
   for (const t of p.stack) {
-    const color = TECH[t] || C.muted
-    const w = textWidth(t, 14, true) + 26
-    parts.push(`<rect x="${x}" y="${y}" width="${w}" height="30" rx="7" fill="${color}"/>`)
-    parts.push(`<text x="${x + w / 2}" y="${y + 20}" text-anchor="middle" font-family="${FONT}" font-size="14" font-weight="600" fill="#ffffff">${esc(t)}</text>`)
+        const w = textWidth(t, 14, true) + 26
+    parts.push(`<rect x="${x}" y="${y}" width="${w}" height="30" rx="7" fill="${C.panel}" stroke="${C.line}"/>`)
+    parts.push(`<text x="${x + w / 2}" y="${y + 20}" text-anchor="middle" font-family="${FONT}" font-size="14" font-weight="600" fill="${C.text}">${esc(t)}</text>`)
     x += w + 10
   }
   y += 30
@@ -202,14 +185,12 @@ function banner() {
   const grid = []
   for (let gx = 0; gx <= W; gx += 40) grid.push(`<line x1="${gx}" y1="0" x2="${gx}" y2="${H}"/>`)
   for (let gy = 0; gy <= H; gy += 40) grid.push(`<line x1="0" y1="${gy}" x2="${W}" y2="${gy}"/>`)
-  const stripes = ['#f5b700', '#2ecc71', '#7c5cff', '#ff7a45', '#149eca']
-  const sw = W / stripes.length
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Isidro Flores, Software Engineer">
   <defs><clipPath id="r"><rect width="${W}" height="${H}" rx="14"/></clipPath></defs>
   <g clip-path="url(#r)">
     <rect width="${W}" height="${H}" fill="${C.bg}"/>
-    <g stroke="#f5b700" stroke-opacity="0.07">${grid.join('')}</g>
-    ${stripes.map((c, i) => `<rect x="${i * sw}" y="${H - 8}" width="${sw}" height="8" fill="${c}"/>`).join('\n    ')}
+    <g stroke="#ffffff" stroke-opacity="0.04">${grid.join('')}</g>
+    <rect x="0" y="${H - 6}" width="${W}" height="6" fill="${C.yellow}"/>
   </g>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="none" stroke="${C.line}"/>
   <text x="48" y="62" font-family="${MONO}" font-size="14" font-weight="600" letter-spacing="2" fill="${C.yellow}">SOFTWARE ENGINEER</text>
