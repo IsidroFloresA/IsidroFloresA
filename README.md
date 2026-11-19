@@ -1,59 +1,48 @@
-<div align="center">
+<a href="https://isidrofloresa.github.io/"><img src=".github/assets/banner.svg" width="100%" alt="Isidro Flores, Software Engineer. Full-stack, backend systems and databases. B.S. Software Engineering, San José State University, December 2026." /></a>
 
-# Isidro Flores
-
-**Software Engineering student at San José State University · Graduating December 2026**
-
-Full-stack developer focused on backend systems and databases · English / Spanish
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-isidrofloresa.github.io-2b2b2b?style=flat&logo=githubpages&logoColor=white)](https://isidrofloresa.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-isidrofloresa-0A66C2?style=flat)](https://linkedin.com/in/isidrofloresa)
-
-</div>
+<p>
+  <a href="https://isidrofloresa.github.io/"><img src="https://img.shields.io/badge/Portfolio-isidrofloresa.github.io-F5B700?style=for-the-badge&logo=githubpages&logoColor=black&labelColor=1f2328" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/isidrofloresa"><img src="https://img.shields.io/badge/LinkedIn-isidrofloresa-0A66C2?style=for-the-badge&labelColor=1f2328" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Languages-English_%7C_Spanish-2ECC71?style=for-the-badge&labelColor=1f2328" alt="English and Spanish" />
+</p>
 
 ## About
 
-I build web applications end to end, from the database schema and REST API to the interface and deployment. Most of my work is in Java, Spring Boot and PostgreSQL. I'm currently growing into mobile development.
+I build web applications end to end, from the database schema and REST API to the interface and deployment. Most of my work is in Java, Spring Boot and PostgreSQL, and I'm currently growing into mobile development.
 
 ## Selected work
 
-| Project | What it is | My role | Stack |
-|---|---|---|---|
-| **El Colorín Admin System** | Management system for a construction materials business: sales, inventory, production, deliveries, cash register and payroll. In pilot use. | Solo full-stack developer | Spring Boot, React, PostgreSQL |
-| **[ProcPatrol](https://procpatrol.live)** | Heartbeat-based uptime monitoring with email, SMS, Discord and Slack alerts. | Backend developer (team): heartbeat model design, MySQL persistence, Twilio SMS alerts | Spring Boot, MySQL, Twilio |
-| **[LikeHome](https://likehome-tau.vercel.app)** | Hotel booking web app. | Database developer (team): search, double-booking prevention, reward points, cancellations, row-level security | PostgreSQL, Supabase |
-| **[SOLES Website](https://solessjsu.com)** | Website for the Society of Latino Engineers and Scientists at SJSU. | Lead web developer (volunteer) | React, Vite, Netlify Functions |
+<a href="https://isidrofloresa.github.io/"><img src=".github/assets/card-el-colorin.svg" width="100%" alt="El Colorín Admin System: management system for a construction materials business. Solo full-stack developer. In pilot. Java, Spring Boot, React, PostgreSQL, Flyway." /></a>
+<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol.svg" width="100%" alt="ProcPatrol: heartbeat-based uptime monitoring. Team project; backend developer. Live. Java, Spring Boot, MySQL, Twilio." /></a>
+<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome.svg" width="100%" alt="LikeHome: hotel booking web app. Team project; database developer. In development. PostgreSQL, Supabase, row-level security." /></a>
+<a href="https://solessjsu.com"><img src=".github/assets/card-soles.svg" width="100%" alt="SOLES Website: website for the Society of Latino Engineers and Scientists at SJSU. Lead web developer, volunteer. Live. React, Vite, Netlify Functions, Google Calendar API." /></a>
 
-El Colorín is a private client project; details are available upon request. Screenshots and case studies for all projects are on my [portfolio](https://isidrofloresa.github.io/).
+El Colorín is a private client project; details are available upon request. Screenshots and case studies for every project are on my [portfolio](https://isidrofloresa.github.io/).
 
 ## Technologies
 
-**Backend**
+**Backend**&ensp;
+![Java](https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-![Java](https://img.shields.io/badge/Java-2b2b2b?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-2b2b2b?style=flat&logo=springboot&logoColor=6DB33F)
-![Spring Security](https://img.shields.io/badge/Spring_Security-2b2b2b?style=flat&logo=springsecurity&logoColor=6DB33F)
-![Maven](https://img.shields.io/badge/Maven-2b2b2b?style=flat&logo=apachemaven&logoColor=C71A36)
+**Databases**&ensp;
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white)
 
-**Databases**
+**Frontend**&ensp;
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8B5CF6?style=flat-square&logo=vite&logoColor=white)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2b2b2b?style=flat&logo=postgresql&logoColor=4169E1)
-![MySQL](https://img.shields.io/badge/MySQL-2b2b2b?style=flat&logo=mysql&logoColor=4479A1)
-![Supabase](https://img.shields.io/badge/Supabase-2b2b2b?style=flat&logo=supabase&logoColor=3FCF8E)
-![Flyway](https://img.shields.io/badge/Flyway-2b2b2b?style=flat&logo=flyway&logoColor=CC0200)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-2b2b2b?style=flat&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-2b2b2b?style=flat&logo=javascript&logoColor=F7DF1E)
-![Vite](https://img.shields.io/badge/Vite-2b2b2b?style=flat&logo=vite&logoColor=646CFF)
-
-**Deployment and tools**
-
-![Nginx](https://img.shields.io/badge/Nginx-2b2b2b?style=flat&logo=nginx&logoColor=009639)
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnel-2b2b2b?style=flat&logo=cloudflare&logoColor=F38020)
-![Netlify](https://img.shields.io/badge/Netlify-2b2b2b?style=flat&logo=netlify&logoColor=00C7B7)
-![Git](https://img.shields.io/badge/Git-2b2b2b?style=flat&logo=git&logoColor=F05032)
+**Deployment and tools**&ensp;
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Cloudflare Tunnel](https://img.shields.io/badge/Cloudflare_Tunnel-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00AD9F?style=flat-square&logo=netlify&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 <details>
 <summary><b>Versión en español</b></summary>
@@ -66,12 +55,10 @@ Estudiante de Ingeniería de Software en San José State University; me gradúo 
 
 ## Proyectos destacados
 
-| Proyecto | Descripción | Mi rol | Tecnologías |
-|---|---|---|---|
-| **Sistema administrativo El Colorín** | Sistema de gestión para un negocio de materiales para construcción: ventas, inventario, producción, entregas, caja y nómina. En uso piloto. | Desarrollador full-stack, proyecto individual | Spring Boot, React, PostgreSQL |
-| **[ProcPatrol](https://procpatrol.live)** | Monitoreo de disponibilidad basado en heartbeats, con alertas por correo, SMS, Discord y Slack. | Desarrollador backend (equipo): diseño del modelo de heartbeats, persistencia con MySQL, alertas por SMS con Twilio | Spring Boot, MySQL, Twilio |
-| **[LikeHome](https://likehome-tau.vercel.app)** | Aplicación web de reservas de hotel. | Desarrollador de base de datos (equipo): búsqueda, prevención de reservas encimadas, puntos de recompensa, cancelaciones, seguridad a nivel de fila | PostgreSQL, Supabase |
-| **[Sitio web de SOLES](https://solessjsu.com)** | Sitio de la Society of Latino Engineers and Scientists de SJSU. | Desarrollador web principal (voluntario) | React, Vite, Netlify Functions |
+<a href="https://isidrofloresa.github.io/?lang=es"><img src=".github/assets/card-el-colorin-es.svg" width="100%" alt="Sistema administrativo El Colorín: sistema de gestión para un negocio de materiales para construcción. Desarrollador full-stack, proyecto individual. En piloto." /></a>
+<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol-es.svg" width="100%" alt="ProcPatrol: monitoreo de disponibilidad basado en heartbeats. Proyecto en equipo; desarrollador backend. En línea." /></a>
+<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome-es.svg" width="100%" alt="LikeHome: aplicación web de reservas de hotel. Proyecto en equipo; desarrollador de base de datos. En desarrollo." /></a>
+<a href="https://solessjsu.com"><img src=".github/assets/card-soles-es.svg" width="100%" alt="Sitio web de SOLES: sitio de la Society of Latino Engineers and Scientists de SJSU. Desarrollador web principal, voluntario. En línea." /></a>
 
 El Colorín es un proyecto privado para un cliente; los detalles están disponibles a solicitud. Las capturas de pantalla y los casos de estudio de todos los proyectos están en mi [portafolio](https://isidrofloresa.github.io/?lang=es).
 
