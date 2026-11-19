@@ -1,4 +1,4 @@
-<a href="https://isidrofloresa.github.io/"><img src=".github/assets/banner.svg" width="100%" alt="Isidro Flores, Software Engineer. Full-stack, backend systems and databases. B.S. Software Engineering, San José State University, December 2026." /></a>
+<a href="https://isidrofloresa.github.io/"><img src=".github/assets/banner.svg?v=2" width="100%" alt="Isidro Flores, Software Engineer. Full-stack, backend systems and databases. B.S. Software Engineering, San José State University, December 2026." /></a>
 
 <p>
   <a href="https://isidrofloresa.github.io/"><img src="https://img.shields.io/badge/Portfolio-isidrofloresa.github.io-24292F?style=for-the-badge&logo=githubpages&logoColor=F5B700&labelColor=24292F" alt="Portfolio" /></a>
@@ -12,10 +12,10 @@ I build web applications end to end, from the database schema and REST API to th
 
 ## Selected work
 
-<a href="https://isidrofloresa.github.io/"><img src=".github/assets/card-el-colorin.svg" width="100%" alt="El Colorín Admin System: management system for a construction materials business. Solo full-stack developer. In pilot. Java, Spring Boot, React, PostgreSQL, Flyway." /></a>
-<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol.svg" width="100%" alt="ProcPatrol: heartbeat-based uptime monitoring. Team project; backend developer. Live. Java, Spring Boot, MySQL, Twilio." /></a>
-<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome.svg" width="100%" alt="LikeHome: hotel booking web app. Team project; database developer. In development. PostgreSQL, Supabase, row-level security." /></a>
-<a href="https://solessjsu.com"><img src=".github/assets/card-soles.svg" width="100%" alt="SOLES Website: website for the Society of Latino Engineers and Scientists at SJSU. Lead web developer, volunteer. Live. React, Vite, Netlify Functions, Google Calendar API." /></a>
+<a href="https://isidrofloresa.github.io/"><img src=".github/assets/card-el-colorin.svg?v=2" width="100%" alt="El Colorín Admin System: management system for a construction materials business. Solo full-stack developer. In pilot. Java, Spring Boot, React, PostgreSQL, Flyway." /></a>
+<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol.svg?v=2" width="100%" alt="ProcPatrol: heartbeat-based uptime monitoring. Team project; backend developer. Live. Java, Spring Boot, MySQL, Twilio." /></a>
+<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome.svg?v=2" width="100%" alt="LikeHome: hotel booking web app. Team project; database developer. In development. PostgreSQL, Supabase, row-level security." /></a>
+<a href="https://solessjsu.com"><img src=".github/assets/card-soles.svg?v=2" width="100%" alt="SOLES Website: website for the Society of Latino Engineers and Scientists at SJSU. Lead web developer, volunteer. Live. React, Vite, Netlify Functions, Google Calendar API." /></a>
 
 El Colorín is a private client project; details are available upon request. Screenshots and case studies for every project are on my [portfolio](https://isidrofloresa.github.io/).
 
@@ -55,10 +55,10 @@ Estudiante de Ingeniería de Software en San José State University; me gradúo 
 
 ## Proyectos destacados
 
-<a href="https://isidrofloresa.github.io/?lang=es"><img src=".github/assets/card-el-colorin-es.svg" width="100%" alt="Sistema administrativo El Colorín: sistema de gestión para un negocio de materiales para construcción. Desarrollador full-stack, proyecto individual. En piloto." /></a>
-<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol-es.svg" width="100%" alt="ProcPatrol: monitoreo de disponibilidad basado en heartbeats. Proyecto en equipo; desarrollador backend. En línea." /></a>
-<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome-es.svg" width="100%" alt="LikeHome: aplicación web de reservas de hotel. Proyecto en equipo; desarrollador de base de datos. En desarrollo." /></a>
-<a href="https://solessjsu.com"><img src=".github/assets/card-soles-es.svg" width="100%" alt="Sitio web de SOLES: sitio de la Society of Latino Engineers and Scientists de SJSU. Desarrollador web principal, voluntario. En línea." /></a>
+<a href="https://isidrofloresa.github.io/?lang=es"><img src=".github/assets/card-el-colorin-es.svg?v=2" width="100%" alt="Sistema administrativo El Colorín: sistema de gestión para un negocio de materiales para construcción. Desarrollador full-stack, proyecto individual. En piloto." /></a>
+<a href="https://procpatrol.live"><img src=".github/assets/card-procpatrol-es.svg?v=2" width="100%" alt="ProcPatrol: monitoreo de disponibilidad basado en heartbeats. Proyecto en equipo; desarrollador backend. En línea." /></a>
+<a href="https://likehome-tau.vercel.app"><img src=".github/assets/card-likehome-es.svg?v=2" width="100%" alt="LikeHome: aplicación web de reservas de hotel. Proyecto en equipo; desarrollador de base de datos. En desarrollo." /></a>
+<a href="https://solessjsu.com"><img src=".github/assets/card-soles-es.svg?v=2" width="100%" alt="Sitio web de SOLES: sitio de la Society of Latino Engineers and Scientists de SJSU. Desarrollador web principal, voluntario. En línea." /></a>
 
 El Colorín es un proyecto privado para un cliente; los detalles están disponibles a solicitud. Las capturas de pantalla y los casos de estudio de todos los proyectos están en mi [portafolio](https://isidrofloresa.github.io/?lang=es).
 
